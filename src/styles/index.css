@@ -25,10 +25,13 @@ h4 {
 }
 
 .home-header .button {
+  position: sticky;
+  top: 0;
   margin-left: auto;
   margin-right: 80px;
 }
 .participants {
+  position: relative;
   padding: 50px 0;
 }
 
@@ -37,4 +40,16 @@ h4 {
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
+}
+
+#wave-01 {
+  z-index: 2;
+  position: absolute;
+  top: -231px;
+}
+
+#wave-02 {
+  z-index: 2; 
+  position: absolute;
+  bottom: -230px;
 }
